@@ -24,7 +24,7 @@ A responsive Currency Converter web application built using HTML, CSS, and JavaS
 
 ![Currency Converter Screenshot](preview.png)
 
-## 🌐 Live Demo
+## 🌐 Live Demo -
 
 https://gandhigarvit01.github.io/Currency-Converter/
 
