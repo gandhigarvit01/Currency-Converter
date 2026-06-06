@@ -2,7 +2,7 @@
 
 A responsive Currency Converter web application built using HTML, CSS, and JavaScript. It provides real-time currency conversion using a live exchange rate API and supports multiple international currencies with country flags.
 
-## 🚀 Features
+## 🚀 Features -
 
 * Real-time currency conversion
 * 160+ supported currencies
