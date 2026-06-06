@@ -22,7 +22,7 @@ A responsive Currency Converter web application built using HTML, CSS, and JavaS
 
 ## 📸 Preview
 
-![Currency Converter Screenshot](img.jpeg)
+![Currency Converter Screenshot](preview.png)
 
 ## 🌐 Live Demo
 
