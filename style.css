@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("img.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    padding: 20px;
+    height: 55vh;
+    width: 400px;
+    border-radius: 2rem;
+    background-color: rgba(8, 18, 45, 0.9);
+    backdrop-filter: blur(8px);
+    border: 2px solid #2da8ff;
+    border-radius: 1.5rem;
+    box-shadow:
+    0 0 15px #2da8ff,
+    0 0 40px rgba(45,168,255,0.4);
+    color: white;
+}
+
+h2{
+    margin: 10px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 25px;
+    color: #4fc3ff;
+}
+
+form{
+    margin-top: 30px;
+}
+
+input,select,button{
+    margin-top: 10px;
+    border: none;
+}
+
+.amount p{
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+}
+
+input{
+    border: 1px solid black;
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 1.5rem;
+    background: #0f224d;
+    color: white;
+    border: 1px solid #2da8ff;
+}
+
+.dropdown{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.dropdown p{
+    font-size: 20px;
+    color: #4fc3ff;
+    font-weight: bold;
+}
+
+.select_container{
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #0f224d;
+    color: white;
+    border: 1px solid #2da8ff;
+}
+
+.select_container img{
+    height: 60px;
+    border-radius: 2rem;
+}
+
+.select_container select{
+    height: 40px;
+    border-radius: 0.5rem;
+    background: #0f224d;
+    color: white;
+}
+
+i{
+    font-size: 1.5rem; 
+}
+
+.msg{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    background: linear-gradient(
+        90deg,
+        #7b2cff,
+        #00c6ff
+    );
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+    border: 2px solid black;
+    box-shadow:
+    0 0 10px #7b2cff,
+    0 0 10px #00c6ff;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+input:hover{
+    background-color: #17356f;
+}
+
+.select_container:hover{
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #2da8ff;
+}
