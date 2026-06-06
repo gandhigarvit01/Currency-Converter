@@ -44,7 +44,7 @@ async function findrate(){
     let rate = data.conversion_rates[tocurr.value];
     let newamt = amtval*rate;
     let msg = document.querySelector(".msg");
-    msg.innerText = `${amtval} ${fromcurr.value} = ${newamt} ${tocurr.value}`;
+    msg.innerText = `${amtval} ${currencyNames[fromcurr.value]} = ${newamt} ${currencyNames[tocurr.value]}`;
 }
 
 
